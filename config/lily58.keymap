@@ -21,7 +21,7 @@
         pwlong: pwlong {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp H &kp R &kp I &kp S &kp T &kp O &kp P &kp H &kp ENTER>;
+            bindings = <&kp C &kp H &kp R &kp I &kp S &kp T &kp O &kp P &kp H &kp N9 &kp N9 &kp ENTER>;
             label = "PWLONG";
         };
     };
