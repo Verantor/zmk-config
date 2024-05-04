@@ -39,11 +39,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans      &kp F1           &kp F2      &kp F3                &kp F4                 &trans                           &trans            &trans        &trans        &trans        &trans    &trans
-&trans      &kp EXCLAMATION  &kp AT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE                         &kp LESS_THAN     &kp N7        &kp N8        &kp N9        &kp STAR  &kp PLUS
-&trans      &kp HASH         &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE                        &kp GREATER_THAN  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans    &kp COLON
-&sys_reset  &kp PERCENT      &kp CARET   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE  &kp EQUAL    &trans   &kp AMPERSAND     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans
-                                         &trans                &trans                 &trans     &trans       &kp DEL  &trans            &kp N0        &trans
+&trans  &kp F1           &kp F2      &kp F3                &kp F4                 &trans                           &trans            &trans        &trans        &trans        &trans    &trans
+&trans  &kp EXCLAMATION  &kp AT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE                         &kp LESS_THAN     &kp N7        &kp N8        &kp N9        &kp STAR  &kp PLUS
+&trans  &kp HASH         &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE                        &kp GREATER_THAN  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans    &kp COLON
+&trans  &kp PERCENT      &kp CARET   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE  &kp EQUAL    &trans   &kp AMPERSAND     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans
+                                     &trans                &trans                 &trans     &trans       &kp DEL  &trans            &kp N0        &trans
             >;
         };
 
