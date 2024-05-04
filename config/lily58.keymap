@@ -47,8 +47,6 @@
 &sys_reset  &kp PERCENT      &kp CARET   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE  &kp EQUAL    &kp RIGHT_PARENTHESIS  &kp AMPERSAND     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &trans
                                          &trans                &trans                 &trans     &trans       &kp DEL                &trans            &trans        &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         raise_layer {
