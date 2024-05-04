@@ -5,9 +5,7 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 
 / {
     combos { compatible = "zmk,combos"; };
@@ -43,11 +41,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans      &kp F1           &kp F2      &kp F3                &bt BT_CLR             &out OUT_TOG                                      &trans            &trans        &trans        &trans        &trans     &trans
-&trans      &kp EXCLAMATION  &kp AT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE                                          &kp LESS_THAN     &kp N7        &kp N8        &kp N9        &kp STAR   &trans
-&trans      &kp HASH         &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE                                         &kp GREATER_THAN  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &trans
-&sys_reset  &kp PERCENT      &kp CARET   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE     &kp EQUAL    &kp RIGHT_PARENTHESIS  &kp AMPERSAND     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &trans
-                                         &trans                &trans                 &trans        &trans       &trans                 &trans            &kp DELETE    &trans
+&trans      &kp F1           &kp F2      &kp F3                &kp F4                 &trans                                         &trans            &trans        &trans        &trans        &trans     &trans
+&trans      &kp EXCLAMATION  &kp AT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE                                       &kp LESS_THAN     &kp N7        &kp N8        &kp N9        &kp STAR   &trans
+&trans      &kp HASH         &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE                                      &kp GREATER_THAN  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &trans
+&sys_reset  &kp PERCENT      &kp CARET   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE  &kp EQUAL    &kp RIGHT_PARENTHESIS  &kp AMPERSAND     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &trans
+                                         &trans                &trans                 &trans     &trans       &kp DEL                &trans            &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
