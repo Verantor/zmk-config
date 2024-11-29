@@ -40,8 +40,8 @@ combos { compatible = "zmk,combos"; };
 		raise_layer {
 			bindings = <
 			&trans  &bt BT_NXT  &ext_power EP_TOG  &studio_unlock  &trans  &trans                                &trans    &trans         &trans       &trans     &trans           &trans
-			&trans  &trans      &trans             &trans  &trans  &trans                                &trans    &kp PAGE_DOWN  &kp PAGE_UP  &trans     &kp PRINTSCREEN  &trans
-			&trans  &trans      &trans             &trans  &trans  &trans                                &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans           &trans
+			&trans  &trans      &trans             &kp DE_EURO  &trans  &trans                                &trans    &kp DE_U_UMLAUT  &trans  &kp DE_O_UMLAUT     &kp PRINTSCREEN  &trans
+			&trans  &kp DE_A_UMLAUT      &kp DE_CAPITAL_SHARP_S             &trans  &trans  &trans                                &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans           &trans
 			&trans  &trans      &trans             &trans  &trans  &trans  &kp C_VOL_DN    &kp C_VOL_UP  &trans    &trans         &trans       &trans     &trans           &trans
 			&trans  &trans  &trans  &trans          &trans        &trans    &trans         &trans
 			>;
